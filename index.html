@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Teem Coding Challenge</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- app -->
+    <div id="app">
+      <!-- headers -->
+      <h1 id="app-title">JSON WIZ</h1>
+      <span id="help-msg">What can I do for you?</span>
+      <div id="returned-record"></div>
+      <!-- btn menu -->
+      <div id="btns-wrapper">
+        <div class="btn" id="find-max">Find Max By Key</div>
+        <div class="btn" id="find-record">Find Record By ID</div>
+        <div class="btn" id="search-records">Search By Term</div>
+        <div class="btn" id="get-records">Get New Records</div>
+      </div>
+      <!-- user input -->
+      <div id="input-wrapper">
+        <select id="available-keys"></select>
+        <input type="text" id="user-input" placeholder="loading..." />
+        <div class="input-btn" id="next-btn">Next</div>
+        <div class="input-btn" id="reset-btn">Reset</div>
+      </div>
+      <!-- footer -->
+      <span id="footer">Record Wiz Copyright 2017</span>
+    </div>
+    <!-- js -->
+    <script src="collection.js"></script>
+    <script src="services.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

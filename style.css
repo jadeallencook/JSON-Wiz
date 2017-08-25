@@ -1,0 +1,98 @@
+/* normalize */
+
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: #00AFAC;
+  font-family: 'Helvetica';
+  font-weight: 100;
+  color: #FFF;
+}
+
+/* app */
+
+div#app {
+  margin: 25px auto;
+  width: 75%;
+  padding: 25px;
+  text-align: center;
+}
+
+h1#app-title {
+  font-weight: 100;
+  margin: 0px;
+  font-size: 7vh;
+}
+
+span#help-msg {
+  font-size: 2vh;
+}
+
+div#btns-wrapper {
+  padding: 15px;
+}
+
+div.btn,
+div.input-btn,
+input#user-input,
+select#available-keys {
+  width: 90%;
+  display: block;
+  text-align: center;
+  margin: 10px auto 0px auto;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 4vh;
+  max-width: 700px;
+}
+
+select#available-keys {
+  display: none;
+}
+
+div.btn,
+div.input-btn {
+  background-color: #FDB71A;
+}
+
+div.btn:hover {
+  opacity: 0.5;
+}
+
+div#input-wrapper {
+  display: none;
+  padding: 15px;
+}
+
+input#user-input {
+  border: none;
+  text-align: center;
+}
+
+span#footer {
+  font-size: 0.75em;
+  font-size: 1vh;
+}
+
+div#returned-record {
+  padding-top: 15px;
+  text-align: left;
+  font-family: Courier;
+  width: 50%;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+/* mobile */
+
+@media only screen and (max-device-width: 480px)  {
+  div.btn,
+  input#user-input {
+    margin-top: 25px;
+  }
+  span#footer {
+    line-height: 75px;
+  }
+}
